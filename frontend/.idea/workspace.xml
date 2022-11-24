@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c0b81a4-d54f-43b0-bc0e-fa08419adb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diet-helper-front/src/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2G61NvQ6MGYlPxEOYaW2gsvqtdb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/diet-helper-front" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c0b81a4-d54f-43b0-bc0e-fa08419adb07" name="Changes" comment="" />
+      <created>1665694183417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665694183417</updated>
+      <workItem from="1665694184508" duration="488000" />
+      <workItem from="1665917339640" duration="319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
