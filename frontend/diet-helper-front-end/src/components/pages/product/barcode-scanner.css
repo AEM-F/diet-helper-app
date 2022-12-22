@@ -1,0 +1,50 @@
+.barcode-info{
+    padding: 8px;
+}
+
+#html5qr-code-full-region{
+    height: 75vh;
+    border-radius: .25rem;
+    border: 1px solid #00ff00 !important;
+    overflow: clip;
+}
+
+#html5qr-code-full-region__scan_region{
+    height: 68%;
+}
+
+#html5qr-code-full-region__scan_region img{
+    display: none;
+}
+
+#html5-qrcode-button-camera-permission, #html5-qrcode-button-camera-start, #html5-qrcode-button-camera-stop{
+    width: 90%;
+    font-size: 14px;
+    font-family: monospace;
+    padding: 4px;
+    background-color: #00ff00;
+    border-radius: .25rem;
+    border: 1px solid #00ff00 !important;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+#html5-qrcode-anchor-scan-type-change{
+    text-decoration: none !important;
+    width: 90%;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 4px;
+    background-color: transparent;
+    border-radius: .25rem;
+    border: 1px solid #00ff00 !important;
+    color: #00ff00;
+    cursor: pointer;
+}
+
+#html5qr-code-full-region__dashboard_section_csr{
+    color: #00ff00;
+    padding: 4px;
+}

@@ -1,159 +1,152 @@
 import * as React from 'react';
-import {Link} from 'react-router-dom';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardHeader from '@mui/material/CardHeader';
 import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import StarIcon from '@mui/icons-material/StarBorder';
-import Toolbar from '@mui/material/Toolbar';
+import './landing.css';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import {FormControl, InputLabel, MenuItem, Paper, Select} from '@mui/material';
 import Typography from '@mui/material/Typography';
-import GlobalStyles from '@mui/material/GlobalStyles';
-import Container from '@mui/material/Container';
-
-const goals = [
-	{
-		title: 'Track your food',
-		description: [
-			'Learn about the foods ' +
-			'you will be consuming'
-		]
-	},
-	{
-		title: 'Keep your body healthy',
-		description: [
-			'Let us help you by \n' +
-			'recommending the best \n' +
-			'alternatives and by \n' +
-			'keeping you always \n' +
-			'informed about your body \n' +
-			'status'
-		]
-	},
-	{
-		title: 'Setting goals',
-		description: [
-			'Losing or gaining weight, \n' +
-			'tell us your goals so we \n' +
-			'can help you achieve \n' +
-			'them\n'
-		]
-	}
-];
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import { particlesOptions } from '../../particlesConfig';
+import {useNavigate} from 'react-router-dom';
+import User from '../../common/user.model';
+import UserService from '../../services/user.service';
+import {useEffect} from 'react';
 
 function LandingContent() {
+	useEffect(()=>{
+		localStorage.removeItem('user');
+		console.log(localStorage.getItem('user'));
+	},[]);
+
+	const navigate = useNavigate();
+
+	const particlesInit = (engine) => {
+		loadFull(engine);
+	};
+	const handleSubmit = (event) => {
+		event.preventDefault();
+		const data = new FormData(event.currentTarget);
+		const user = new User(
+			data.get('firstName'),
+			data.get('lastName'),
+			data.get('gender'),
+			data.get('weight'),
+			data.get('height'),
+			data.get('age'),
+			data.get('activity'),
+		);
+		UserService.initialLoadUser(user);
+		navigate('/first-macro', {replace: true});
+	};
 	return (
 		<React.Fragment>
-			<GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
 			<CssBaseline />
-			<AppBar
-				position="static"
-				color="default"
-				elevation={0}
-				sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
-			>
-				<Toolbar sx={{ flexWrap: 'wrap' }}>
-					<Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-                        HTrack
+			<Particles init={particlesInit} options={particlesOptions} />
+			<div className={'base-wrapper'}>
+				<Box className={'main-title'} sx={{padding: '4px'}} elevation={10}>
+					<Typography variant="h5" component="h5">
+						Welcome to the NTrack
 					</Typography>
-					<nav>
-					</nav>
-					<Link to={'/login'}>
-						<Button href="#" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
-							Login
-						</Button>
-					</Link>
-				</Toolbar>
-			</AppBar>
-			{/* Hero unit */}
-			<Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
-				<Typography
-					component="h1"
-					variant="h3"
-					align="center"
-					color="text.primary"
-					gutterBottom
-				>
-                    THE BENEFITS
-				</Typography>
-				<Typography variant="h10" align="center" color="text.secondary" component="div">
-					<Typography variant="h5" component="p">Disclaimer:</Typography>
-					The following GUI serves as a interactive wireframe for the final product.
-					As such, by the end of the project lifecycle there will be notable changes to the functionalities and design.
-				</Typography>
-			</Container>
-			{/* End hero unit */}
-			<Container maxWidth="md" component="main">
-				<Grid container spacing={5} alignItems="flex-end">
-					{goals.map((tier) => (
-						// Enterprise card is full width at sm breakpoint
-						<Grid
-							item
-							key={tier.title}
-							xs={12}
-							sm={tier.title === 'Enterprise' ? 12 : 6}
-							md={4}
+				</Box>
+				<Paper className={'form-sub-title-wrapper'} elevation={0}>
+					<Typography sx={{color: '#0f0', width: '100%'}} variant="subtitle1" component="h6">
+						Please begin by filling in your information
+					</Typography>
+				</Paper>
+				<Box bgcolor={'#212121'} className={'form-wrapper'} component="form" onSubmit={handleSubmit}>
+					<TextField
+						margin="normal"
+						required
+						fullWidth
+						id="firstName"
+						label="First Name"
+						name="firstName"
+						autoFocus
+					/>
+					<TextField
+						margin="normal"
+						required
+						fullWidth
+						id="lastName"
+						label="Last Name"
+						name="lastName"
+					/>
+					<FormControl fullWidth margin={'normal'}>
+						<InputLabel id="simple-select-gender-label">Gender</InputLabel>
+						<Select defaultValue={'male'}
+							labelId="simple-select-gender-label"
+							name={'gender'}
+							id="simple-select-gender"
+							label="Gender"
 						>
-							<Card>
-								<CardHeader
-									title={tier.title}
-									subheader={tier.subheader}
-									titleTypographyProps={{ align: 'center' }}
-									action={tier.title === 'Pro' ? <StarIcon /> : null}
-									subheaderTypographyProps={{
-										align: 'center',
-									}}
-									sx={{
-										backgroundColor: (theme) =>
-											theme.palette.mode === 'light'
-												? theme.palette.grey[200]
-												: theme.palette.grey[700],
-									}}
-								/>
-								<CardContent>
-									<Box
-										sx={{
-											display: 'flex',
-											justifyContent: 'center',
-											alignItems: 'baseline',
-											mb: 2,
-										}}
-									>
-										<Typography component="p" variant="p" sx={{color: 'gray'}}>
-                                            Placeholder Image
-										</Typography>
-									</Box>
-									<ul>
-										{tier.description.map((line) => (
-											<Typography
-												component="li"
-												variant="subtitle1"
-												align="center"
-												key={line}
-											>
-												{line}
-											</Typography>
-										))}
-									</ul>
-								</CardContent>
-								<CardActions>
-									<Button fullWidth variant={tier.buttonVariant}>
-										{tier.buttonText}
-									</Button>
-								</CardActions>
-							</Card>
-						</Grid>
-					))}
-				</Grid>
-			</Container>
+							<MenuItem value={'male'}>Male</MenuItem>
+							<MenuItem value={'female'}>Female</MenuItem>
+						</Select>
+					</FormControl>
+					<FormControl fullWidth margin={'normal'}>
+						<InputLabel id="simple-select-activity-label">Activity level</InputLabel>
+						<Select defaultValue={'sedentary'}
+							labelId="simple-select-activity-label"
+							name={'activity'}
+							id="simple-select-activity-1"
+							label="Activity"
+						>
+							<MenuItem value={'sedentary'}>Sedentary</MenuItem>
+							<MenuItem value={'light'}>Light</MenuItem>
+							<MenuItem value={'moderately'}>Moderately</MenuItem>
+							<MenuItem value={'very'}>Very</MenuItem>
+							<MenuItem value={'extra'}>Extra</MenuItem>
+						</Select>
+					</FormControl>
+					<div className={'basic-info-wrapper-1'}>
+						<TextField
+							sx={{width: '30%'}}
+							name={'weight'}
+							id="weight"
+							label="Weight (kg)"
+							type="number"
+							InputLabelProps={{
+								shrink: true,
+							}}
+							variant="filled"
+						/>
+						<TextField
+							sx={{width: '30%'}}
+							name={'height'}
+							id="height"
+							label="Height (cm)"
+							type="number"
+							InputLabelProps={{
+								shrink: true,
+							}}
+							variant="filled"
+						/>
+						<TextField
+							sx={{width: '30%'}}
+							name={'age'}
+							id="age"
+							label="Age (years)"
+							type="number"
+							InputLabelProps={{
+								shrink: true,
+							}}
+							variant="filled"
+						/>
+					</div>
+					<Button
+						type="submit"
+						fullWidth
+						variant="contained"
+						sx={{ mt: 3, mb: 2 }}
+					>
+						Submit
+					</Button>
+				</Box>
+			</div>
 		</React.Fragment>
 	);
 }
 
-export default function Landing() {
-	return <LandingContent />;
-}
+export default LandingContent;

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6d5eeec-dc46-42a0-b8bc-a0a6e8a3def0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/diet-helper-front-end.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/EventBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/auth-verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/with-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/bottom-nav.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/dashboard.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/landing.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/logger.page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/logger.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/login.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/product/edit-product.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/product/product-info.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/product/scanner.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/signup.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/user-macro-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/user-macro-details.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/bmr-chart.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/particlesConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/theme.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/common/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/nav/bottom-nav.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/logger.page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/user-macro-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/user-macro-details.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/user/bmr-chart.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/particlesConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front/src/services/theme.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/common/auth-verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/common/auth-verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/dashboard.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/dashboard.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/landing.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/landing.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/logger.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/logger.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/product/product-info.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/product/product-info.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/components/pages/signup.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-helper-front/src/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-helper-front/src/services/user.service.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/pages/product/barcode-scanner.page.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/common/meal-plan.model.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/pages/product/barcode-scanner.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/pages/user-macro-details.page.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/user/carousel-item.component.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JE0qMWvUb4MQjbXWjQ8ydO4ZsL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../quagga2-react-example" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6d5eeec-dc46-42a0-b8bc-a0a6e8a3def0" name="Changes" comment="" />
+      <created>1671628125461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671628125461</updated>
+      <workItem from="1671628129645" duration="172000" />
+      <workItem from="1671628306404" duration="31819000" />
+      <workItem from="1671663448880" duration="118000" />
+      <workItem from="1671663594133" duration="16937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

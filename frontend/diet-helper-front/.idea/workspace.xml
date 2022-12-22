@@ -2,43 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6398d556-5a8a-46e8-a214-e9c81ce9f65f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/diet-helper-front.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/EventBus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/auth-verify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/with-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/dashboard.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/landing.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/logger.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/login.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/product/edit-product.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/product/product-info.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/product/scanner.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/signup.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/diet-helper-front-end.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/common/EventBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/common/auth-verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/common/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/common/with-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/nav/bottom-nav.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/dashboard.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/landing.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/logger.page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/logger.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/login.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/product/edit-product.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/product/product-info.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/product/scanner.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/signup.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/user-macro-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/pages/user-macro-details.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/components/user/bmr-chart.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/particlesConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/services/auth-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/services/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/services/theme.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../diet-helper-front-end/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/bottom-nav.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/logger.page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/user-macro-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/user-macro-details.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/bmr-chart.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/particlesConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/theme.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/auth-verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/auth-verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/dashboard.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/dashboard.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/landing.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/landing.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/logger.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/logger.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/product/product-info.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/product/product-info.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/signup.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,13 +113,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AIR/frontend/aq-front-end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../diet-helper-front-end" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -126,7 +161,11 @@
       <workItem from="1665918453401" duration="7300000" />
       <workItem from="1666087928056" duration="52000" />
       <workItem from="1666361794712" duration="3794000" />
-      <workItem from="1669276219825" duration="1119000" />
+      <workItem from="1669276219825" duration="11738000" />
+      <workItem from="1671454177861" duration="25527000" />
+      <workItem from="1671620884586" duration="5947000" />
+      <workItem from="1671627003568" duration="80000" />
+      <workItem from="1671627106770" duration="1274000" />
     </task>
     <servers />
   </component>
